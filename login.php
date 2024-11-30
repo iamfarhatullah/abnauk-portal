@@ -105,7 +105,7 @@
 if (isset($_POST['submitEmail'])) {
 	require_once("include/connection.php");
 	$email = $_POST['email'];
-	$headers = "From: farhatullah6683@gmail.com";
+	$headers = "From: no-reply@abnauk.com";
 	$checkSql = "SELECT * FROM tbl_users WHERE user_email='$email'";
 	$checkResult = mysqli_query($conn, $checkSql);
 	if (mysqli_num_rows($checkResult)>0) {

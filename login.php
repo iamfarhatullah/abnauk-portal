@@ -116,7 +116,9 @@ if (isset($_POST['submitEmail'])) {
 			$password = $row['user_password'];
 			if (mail($email, "Forgot password", "Your password is ".$password, $headers)) {
 		 		header("Location: login.php?emailSent");
-		 	}
+		 	}else{
+				header("Location: login.php?notSent");
+			}
 		}
 	 }else{
 	 	header("Location: login.php?notExist");

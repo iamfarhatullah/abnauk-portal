@@ -90,7 +90,7 @@
 										<option value="">Select Country</option>
 										<?php  
 											require_once('include/connection.php');
-											$sql = "SELECT * FROM tbl_countries WHERE id IN (230, 231)";
+											$sql = "SELECT * FROM tbl_countries WHERE id IN (230, 231, 75, 223)";
 											$result = mysqli_query($conn, $sql);
 											if (mysqli_num_rows($result)>0) {
 												while ($row = mysqli_fetch_assoc($result)) {

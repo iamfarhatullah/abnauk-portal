@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="css/style.css" type="text/css">
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="font-awesome-5.3.1/css/all.css">
-<link rel="icon" href="../img/logo/logo.png" type="image/png">
+<link rel="shortcut icon" href="images/abnauk-logo.png" type="image/png">
 </head>
 <body>
 <?php  

@@ -5,15 +5,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width" />
 <meta name="author" content="">
-<title>Login to your account - Scholars Fellow</title>		
+<title>Login - Abna UK</title>		
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
-<link rel="icon" href="../img/logo/logo.png" type="image/png">
+<link rel="shortcut icon" href="images/abnauk-logo.png" type="image/png">
 <link rel="stylesheet" href="css/style.css" type="text/css">
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="font-awesome-5.3.1/css/all.css">
-
 </head>
 <body>
 <div class="login-page container-fluid">
